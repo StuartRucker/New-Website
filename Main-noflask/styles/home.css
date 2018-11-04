@@ -67,9 +67,9 @@ body, html {
     font-family: 'Cormorant Garamond', serif;
     display: block;
     text-align: center; 
-    white-space: pre-wrap;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding: 30px;
 }
 
 .footer {
