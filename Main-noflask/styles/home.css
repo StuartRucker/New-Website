@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
-h1 {
-    background-color: green;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
 .top-background {
@@ -76,4 +77,21 @@ h1 {
     white-space: pre-wrap;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.footer {
+    text-align: center; 
+    padding: 64px 32px;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    color: rgba(255,255,255,.4);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    background-color: #000;
+    color: #fff;
 }
