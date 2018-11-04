@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 h1 {
     background-color: green;
 }
+
+.top-background {
+    background: url(images/man-on-sea.jpg) center;
+    background-size: cover;
+      
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+}
+
+.top-background #title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 68px;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 0.0588235em;
+}
+
+.top-background button {
+    border-radius: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 1.75em;
+    background-color: #36b3a8;
+    display: inline-block;
+    line-height: 1em;
+    margin: 10px 0;
+    color: #fff;
+    border: none;
+}
+
